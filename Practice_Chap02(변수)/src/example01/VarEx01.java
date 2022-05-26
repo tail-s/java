@@ -1,6 +1,6 @@
 package example01;
 
-public class VarEx {
+public class VarEx01 {
 
 	public static void main(String[] args) {
 		

@@ -7,7 +7,7 @@ public class LogicalOperEx {
 		
 		boolean result = false;
 		int i = 10;
-		char ch = '1';
+		char ch = 'B';
 				
 		result = (i > 5);	//true
 		System.out.println("(i < 5) : " + result);
@@ -21,6 +21,7 @@ public class LogicalOperEx {
 		//알파벳 소문자인지 확인하는 식
 		result = (ch > 'a' && ch <= 'z');
 		System.out.println("(ch > 'a' && ch <= 'z') : " + result);
+		
 		//ch에 저장되어진 값이 알파벳인지 확인하는 조건
 		result = (ch > 'a' && ch <= 'z') || (ch > 'A' && ch <= 'Z');
 		System.out.println("알파벳 : " + result);

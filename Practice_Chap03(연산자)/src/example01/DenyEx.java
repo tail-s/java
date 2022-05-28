@@ -1,4 +1,4 @@
-package Example01;
+package example01;
 
 public class DenyEx {
 
@@ -14,9 +14,9 @@ public class DenyEx {
 		power = !power;
 		System.out.println("powerÀÇ °ª = " + power);
 		
-		if(!power) {
-			System.out.println("if¹® ½ÇÇàµÊ");
-		}
+//		if(!power) {
+//			System.out.println("if¹® ½ÇÇàµÊ");
+//		}
 
 
 	}

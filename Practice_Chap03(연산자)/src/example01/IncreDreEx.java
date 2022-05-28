@@ -1,4 +1,4 @@
-package Example01;
+package example01;
 
 public class IncreDreEx {
 

@@ -10,6 +10,7 @@ public class Time {
 	
 	//아무것도 안붙이면 기본으로 default 접근제어자이나 default라고 명시할 경우 문법오류.
 	
+	//프로그래밍을 할 때, 멤버변수는 웬만하면 private접근제어자로 감싸주고(캡슐화), 각 멤버변수에 해당하는 getter()를 제공해주는 방법으로 클래스를 작성하는 방법이 올바르다.
 	private int hour;	
 	private int minute;
 	private int second;

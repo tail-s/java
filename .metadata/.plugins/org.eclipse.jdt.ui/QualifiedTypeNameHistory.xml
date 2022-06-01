@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="example01.Fieldinit"/>
     <fullyQualifiedTypeName name="example02.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="example01.Student"/>
+    <fullyQualifiedTypeName name="example02.Calculator"/>
 </qualifiedTypeNameHistroy>

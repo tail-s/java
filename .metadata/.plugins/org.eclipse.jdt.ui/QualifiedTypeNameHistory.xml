@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="example02.Calculator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="example02.Accumulator"/>
 </qualifiedTypeNameHistroy>

@@ -17,7 +17,6 @@ public class CarEx {
 			Car c = new Car(c2);
 			System.out.println(i + "¹øÂ° Â÷ " + c);
 		}
-		System.out.println(c);
 
 	}
 

@@ -6,7 +6,11 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="example01.Student"/>
     <fullyQualifiedTypeName name="example02.Calculator"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="example02.Accumulator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="example01.Bicycle"/>
+    <fullyQualifiedTypeName name="example01.MountainBicycle"/>
 </qualifiedTypeNameHistroy>

@@ -13,4 +13,6 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="example01.Bicycle"/>
     <fullyQualifiedTypeName name="example01.MountainBicycle"/>
+    <fullyQualifiedTypeName name="example05.Parent"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

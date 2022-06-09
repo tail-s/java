@@ -15,4 +15,7 @@
     <fullyQualifiedTypeName name="example01.MountainBicycle"/>
     <fullyQualifiedTypeName name="example05.Parent"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="example02.Player"/>
+    <fullyQualifiedTypeName name="example03.SportCar"/>
+    <fullyQualifiedTypeName name="example03.PoliceCar"/>
 </qualifiedTypeNameHistroy>

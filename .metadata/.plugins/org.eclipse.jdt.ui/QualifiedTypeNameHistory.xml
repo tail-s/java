@@ -19,4 +19,8 @@
     <fullyQualifiedTypeName name="example03.SportCar"/>
     <fullyQualifiedTypeName name="example03.PoliceCar"/>
     <fullyQualifiedTypeName name="example01.ContentSender"/>
+    <fullyQualifiedTypeName name="java.rmi.Remote"/>
+    <fullyQualifiedTypeName name="example04.RemoteControl"/>
+    <fullyQualifiedTypeName name="example07.MyInterface"/>
+    <fullyQualifiedTypeName name="example08.Soundable"/>
 </qualifiedTypeNameHistroy>

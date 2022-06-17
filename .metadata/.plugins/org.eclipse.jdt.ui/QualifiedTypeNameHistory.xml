@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="example02.Calculator"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="example02.Accumulator"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="example01.Bicycle"/>
@@ -23,4 +22,13 @@
     <fullyQualifiedTypeName name="example04.RemoteControl"/>
     <fullyQualifiedTypeName name="example07.MyInterface"/>
     <fullyQualifiedTypeName name="example08.Soundable"/>
+    <fullyQualifiedTypeName name="example01.Nested_Ex"/>
+    <fullyQualifiedTypeName name="example01.Nested_Ex.A"/>
+    <fullyQualifiedTypeName name="example01.Nested_Ex.B"/>
+    <fullyQualifiedTypeName name="example02.A.B"/>
+    <fullyQualifiedTypeName name="example02.A.C"/>
+    <fullyQualifiedTypeName name="example03.A.C"/>
+    <fullyQualifiedTypeName name="example03.A.B"/>
+    <fullyQualifiedTypeName name="example04.Outside.Inner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

@@ -30,5 +30,11 @@
     <fullyQualifiedTypeName name="example03.A.C"/>
     <fullyQualifiedTypeName name="example03.A.B"/>
     <fullyQualifiedTypeName name="example04.Outside.Inner"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="example04.BalanceException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
 </qualifiedTypeNameHistroy>

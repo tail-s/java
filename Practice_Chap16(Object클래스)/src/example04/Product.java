@@ -1,4 +1,4 @@
-package example03;
+package example04;
 
 import java.util.Arrays;
 
@@ -9,13 +9,15 @@ public class Product implements Cloneable {
 	private String name;
 	private int price;
 	private int[] arr;
+	private Apple apple;
 	
-	public Product(String id, String name, int price, int[] arr) {
+	public Product(String id, String name, int price, int[] arr, Apple apple) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.price = price;
 		this.arr = arr;
+		this.apple = apple;
 	}
 
 	public String getId() {
@@ -34,19 +36,20 @@ public class Product implements Cloneable {
 		return this.arr;
 	}
 	
+	public Apple getApple() {
+		return this.apple;
+	}
+	
 	@Override
 	public String toString() {
 		return "상품ID : " + this.getId() + "\n" +
 				"상품이름 : " + this.getName() + "\n" +
 				"상품가격 : " + this.getPrice() + "\n" +
-				"배열값 : " + Arrays.toString(this.arr);
+				"배열값 : " + Arrays.toString(this.arr) + "\n" +
+				"Apple값 : " + this.apple.price;
 	}
 	
-//	@Override
-//	protected Object clone() throws CloneNotSupportedException {
-//		
-//		return super.clone();
-//	}
+
 	
 	public Product getProduct() {
 		
@@ -57,6 +60,17 @@ public class Product implements Cloneable {
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}
+		
+		return cloned;
+	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		//먼저 얕은 복제를 호출(기본형 타입)
+		Product cloned = (Product)super.clone(); //Object클래스의 clone()
+		//참조타입들을 복제하는 코드
+		cloned.arr = Arrays.copyOf(this.arr, this.arr.length);	//배열 복체
+		cloned.apple = new Apple(this.apple.price);	//클래스 복제
 		
 		return cloned;
 	}

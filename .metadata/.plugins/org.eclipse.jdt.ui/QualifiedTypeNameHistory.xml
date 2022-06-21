@@ -39,4 +39,5 @@
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="example03.Product"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="example04.Product"/>
 </qualifiedTypeNameHistroy>

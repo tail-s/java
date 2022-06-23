@@ -37,7 +37,10 @@
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="example03.Product"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="example04.Product"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="example01.ScannerEx"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

@@ -22,11 +22,11 @@ public class NewInstanceEx {
 	public static void main(String[] args) throws Exception{
 		
 		Class class1 = Class.forName("example04.A");
-		I i1 = (I)class1.newInstance();
+		I i1 = (I)class1.newInstance();	//悼利 按眉甫 积己窃.
 		i1.method();
 		
 		Class class2 = Class.forName("example04.B");
-		I i2 = (I)class2.newInstance();
+		I i2 = (I)class2.newInstance();	//悼利 按眉甫 积己窃.
 		i2.method();
 	}
 

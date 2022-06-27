@@ -50,15 +50,47 @@ public class ArrayEqualsDeepEqualsEx {
 											{3, 4}
 										};
 		
+		//얕은 복사
 		int[][] cloned1 = Arrays.copyOf(original, original.length);
+		
 		System.out.println(Arrays.equals(original, cloned1));
-		System.out.println(Objects.equals(original, cloned1));
-		
+		System.out.println(Arrays.deepEquals(original, cloned1));
+		//System.out.println(Objects.equals(original, cloned1));		
 		System.out.println("original[0] : " + original[0]);
-		System.out.println("cloned1[0] : " + cloned1[0]);
-		
+		System.out.println("cloned1[0] : " + cloned1[0]);		
 		System.out.println(original);
-		System.out.println(cloned1);
+		System.out.println(cloned1);		
+		System.out.println("-------------------------");
+		
+		cloned1[0][0] = 10;	//번지를 공유하기에 다른 배열에 영향을 미침
+		System.out.println(Arrays.deepEquals(original, cloned1));
+		System.out.println(original[0][0]);
+		System.out.println(cloned1[0][0]);		
+		System.out.println("-------------------------");
+
+		//깊은 복사
+		int[][] cloned2 = Arrays.copyOf(original, original.length);
+		cloned2[0] = Arrays.copyOf(original[0], original[0].length);
+		cloned2[1] = Arrays.copyOf(original[1], original[1].length);
+		
+		System.out.println(Arrays.equals(original, cloned2));
+		System.out.println(Arrays.deepEquals(original, cloned2));
+		//System.out.println(Objects.equals(original, cloned2));		
+		System.out.println("original[0] : " + original[0]);
+		System.out.println("cloned2[0] : " + cloned2[0]);		
+		System.out.println(original);
+		System.out.println(cloned2);		
+		System.out.println("-------------------------");
+		
+		cloned2[0][0] = 50;
+		System.out.println(Arrays.deepEquals(original, cloned2));
+		System.out.println(Arrays.equals(original, cloned2));
+		System.out.println("original[0][0] : " + original[0][0]);
+		System.out.println("cloned2[0][0] : " + cloned2[0][0]);	
+		System.out.println("-------------------------");
+		
+		
+		
 		
 
 	}

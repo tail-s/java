@@ -19,6 +19,4 @@ public class Product<T,M> {
 		this.m = m;
 	}
 	
-	
-
 }

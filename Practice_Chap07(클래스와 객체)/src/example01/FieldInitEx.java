@@ -16,7 +16,7 @@ public class FieldInitEx {
 		
 		
 		System.out.println(fi);
-		//System.out.println(fi.toString());
+		System.out.println(fi.toString());
 
 	}
 

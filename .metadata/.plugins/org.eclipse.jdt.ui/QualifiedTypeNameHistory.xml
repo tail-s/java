@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="example01.Fieldinit"/>
-    <fullyQualifiedTypeName name="example02.Student"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="example01.Student"/>
     <fullyQualifiedTypeName name="example02.Calculator"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -58,6 +55,9 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="example05.Member"/>
     <fullyQualifiedTypeName name="test.Employee"/>
-    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="example07.Calculator"/>
 </qualifiedTypeNameHistroy>

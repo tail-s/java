@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="example01.Student"/>
-    <fullyQualifiedTypeName name="example02.Calculator"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="example02.Accumulator"/>
-    <fullyQualifiedTypeName name="example01.Bicycle"/>
     <fullyQualifiedTypeName name="example01.MountainBicycle"/>
     <fullyQualifiedTypeName name="example05.Parent"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="example07.Calculator"/>
+    <fullyQualifiedTypeName name="example08.UsingThread"/>
+    <fullyQualifiedTypeName name="example09.TargetThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread.State"/>
+    <fullyQualifiedTypeName name="example09.StatePrintThread"/>
+    <fullyQualifiedTypeName name="example11.SumThread"/>
 </qualifiedTypeNameHistroy>

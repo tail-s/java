@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="example02.Player"/>
     <fullyQualifiedTypeName name="example03.SportCar"/>
     <fullyQualifiedTypeName name="example03.PoliceCar"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="example11.SumThread"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="example02.AutoSaveThread"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
 </qualifiedTypeNameHistroy>

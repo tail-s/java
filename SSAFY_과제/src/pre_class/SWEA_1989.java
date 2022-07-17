@@ -1,4 +1,4 @@
-package 사전학습;
+package pre_class;
 
 import java.util.Arrays;
 import java.util.Scanner;

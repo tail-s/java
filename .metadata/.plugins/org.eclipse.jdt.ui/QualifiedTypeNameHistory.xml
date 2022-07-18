@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="example02.Player"/>
-    <fullyQualifiedTypeName name="example03.SportCar"/>
-    <fullyQualifiedTypeName name="example03.PoliceCar"/>
-    <fullyQualifiedTypeName name="example01.ContentSender"/>
-    <fullyQualifiedTypeName name="java.rmi.Remote"/>
-    <fullyQualifiedTypeName name="example04.RemoteControl"/>
-    <fullyQualifiedTypeName name="example07.MyInterface"/>
-    <fullyQualifiedTypeName name="example08.Soundable"/>
-    <fullyQualifiedTypeName name="example01.Nested_Ex"/>
-    <fullyQualifiedTypeName name="example01.Nested_Ex.A"/>
-    <fullyQualifiedTypeName name="example01.Nested_Ex.B"/>
-    <fullyQualifiedTypeName name="example02.A.B"/>
-    <fullyQualifiedTypeName name="example02.A.C"/>
     <fullyQualifiedTypeName name="example03.A.C"/>
     <fullyQualifiedTypeName name="example03.A.B"/>
     <fullyQualifiedTypeName name="example04.Outside.Inner"/>
@@ -33,7 +20,6 @@
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="objectsExample.CompareEx.StudentCompasrator"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="arraysExample.Person"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
@@ -47,7 +33,6 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="example05.Member"/>
     <fullyQualifiedTypeName name="test.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.awt.Toolkit"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="example02.AutoSaveThread"/>
     <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
+    <fullyQualifiedTypeName name="example04.ExecuteSubmitEx"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="example01.ArrayListEx01"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="example03.MyVector"/>
 </qualifiedTypeNameHistroy>

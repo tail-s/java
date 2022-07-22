@@ -1,4 +1,4 @@
-package ssafy_git;
+package boardex;
 
 public class User {
 

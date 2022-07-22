@@ -1,12 +1,16 @@
-package ssafy_git;
+package boardex;
 
 public class UserManager {
 	
 	private int MAX_USER_SIZE = 100;
 	private User loginUser = null;
 	private User[] users = new User[MAX_USER_SIZE];
-	private int userSize = 0;	
+	private int userSize = 0;
 	
+	public int getUserSize() {
+		return userSize;
+	}
+
 	public User getLoginUser() {
 		return loginUser;
 	}
@@ -22,20 +26,19 @@ public class UserManager {
 				break;
 			}
 		}
-		users[this.userSize] = user;
+		users[this.userSize++] = user;
 	}
 	
 	public User login(String id, String password) {
 		for(int i=0; i<this.userSize; i++) {
-			if(users[i].getUserId()==id) {
-				if(users[i].getPassword()==password) {
-					System.out.println("로그인 되었습니다.");
+			if(users[i].getUserId().equals(id)) {
+				if(users[i].getPassword().equals(password)) {
 					return users[i];
 				}
 				else {
 					System.out.println("비밀번호를 다시 확인하세요.");
 				}
-			}			
+			}
 		}
 		System.out.println("등록되지 않은 사용자입니다.");
 		return null;

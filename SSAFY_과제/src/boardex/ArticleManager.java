@@ -1,4 +1,4 @@
-package ssafy_git;
+package boardex;
 
 public class ArticleManager {
 	
@@ -6,6 +6,10 @@ public class ArticleManager {
 	private Article[] articles = new Article[this.MAX_ARTICLE_SIZE];
 	private int articleSize = 0;
 	
+	public int getArticleSize() {
+		return articleSize;
+	}
+
 	public Article[] getArticleList() {
 		Article[] result = new Article[this.articleSize];
 		for(int i=0; i<this.articleSize; i++) {
@@ -24,21 +28,22 @@ public class ArticleManager {
 		return result;		
 	}
 	
-	public void addArticle(Article article) {	//로그인 시만 가능
+	public void addArticle(Article article) {
 		if(this.articleSize<1000) {
-			articles[this.articleSize] = article;
+			articles[this.articleSize++] = article;
 		}
 	}
 	
-	public void removeArticle(int articleId) {	//게시글이 삭제되면 해당 게시글의 댓글 또한 전부 삭제
+	public void removeArticle(int articleId) {
 		for(int i=0; i<this.articleSize; i++) {
 			if(articles[i].getArticleId()==articleId) {
-				for(int j=0; j<this.articleSize-i; j++) {
+				for(int j=0; j<this.articleSize; j++) {
 					articles[i+j] = articles[i+j+1];
 				}
 				this.articleSize--;
 			}
 		}
 	}
+
 
 }

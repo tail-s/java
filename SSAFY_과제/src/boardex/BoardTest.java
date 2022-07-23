@@ -7,7 +7,6 @@ public class BoardTest {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		boolean is_On = true;
-		int choice;
 		
 		UserManager um = new UserManager();
 		ArticleManager am = new ArticleManager();
@@ -22,7 +21,7 @@ public class BoardTest {
 			System.out.println("2. 회원가입");
 			System.out.println("0. 종료");
 			System.out.println("--------------------------------------");			
-			choice = sc.nextInt();
+			int choice = sc.nextInt();
 			
 			if(choice==1) {
 				System.out.print("ID 입력 : ");

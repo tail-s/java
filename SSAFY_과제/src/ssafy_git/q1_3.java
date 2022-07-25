@@ -17,33 +17,19 @@ public class q1_3 {
 //			System.out.println();
 //		}
 		
-//		int num = 1;
-//		int x = 2;
-//		int y = -2;		
-//		
-//		for(int i=0; i<5; i++) {
-//			for(int j=0; j<Math.abs(Math.abs(y)-2); j++) {
-//				System.out.print("  ");
-//			}
-//			for(int j=0; j<Math.abs(x-y)+1; j++) {
-//				System.out.print(num++ + " ");
-//			}
-//			for(int j=0; j<Math.abs(Math.abs(y)-2); j++) {
-//				System.out.print("  ");
-//			}
-//			x--;
-//			y++;
-//			System.out.println();		
-//		}
-		
-		for(int i=0, n=0; i <=10;i++) {
-            for(int j=0; j <= n+(5-n)*2+1; j++) {
-                  System.out.print((j<=n)? " " : "*");
-            }
-            System.out.println();
-            if (i<5) {n++;} else { n--;}
-      }
-		
+		int num = 1;		
+		for(int x=2, y=-2; y<3; x--, y++) {
+			for(int i=0; i<Math.abs(Math.abs(y)-2); i++) {
+				System.out.print("  ");
+			}
+			for(int i=0; i<Math.abs(x-y)+1; i++) {
+				System.out.print(num++ + " ");
+			}
+			for(int i=0; i<Math.abs(Math.abs(y)-2); i++) {
+				System.out.print("  ");
+			}
+			System.out.println();		
+		}		
 		
 //		System.out.println("가위바위보 게임을 시작합니다. 아래 보기 중 하나를 고르세요.");
 //		System.out.println("1. 5판 3승");

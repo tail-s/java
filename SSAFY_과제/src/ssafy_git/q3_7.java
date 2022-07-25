@@ -37,7 +37,7 @@ public class q3_7 {
 								break;
 							}
 							//test
-							else if(!(r+dr[k]+dr[k]>=0 && r+dr[k]+dr[k]<n && c+dc[k]+dc[k]>=0 && c+dc[k]+dc[k]<n) && map[r+dr[k]][c+dc[k]]==0) {
+							if(!(r+dr[k]+dr[k]>=0 && r+dr[k]+dr[k]<n && c+dc[k]+dc[k]>=0 && c+dc[k]+dc[k]<n) && map[r+dr[k]][c+dc[k]]==0) {
 								cnt++;
 								break;
 							}

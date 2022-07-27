@@ -37,7 +37,6 @@
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="example03.MyVector"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="codingfactory.Product"/>
     <fullyQualifiedTypeName name="codingfactory.Review"/>
@@ -56,8 +55,9 @@
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.net.URLEncoder"/>
     <fullyQualifiedTypeName name="java.net.URLDecoder"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

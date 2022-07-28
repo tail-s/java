@@ -11,7 +11,7 @@ public class BufferedInputStreamEx {
 		long start = 0;
 		long end = 0;
 		File file = new File("C:\\Users\\lunar\\Desktop\\study\\java\\Practice_Chap26(IO입출력Part-2)\\src\\example05\\満天.mp3");
-		//바이트 기반으로 속도의 차이를 보기 위한 프로그램ㅇ르 작성해본다.
+		//바이트 기반으로 속도의 차이를 보기 위한 프로그램을 작성해본다.
 		FileInputStream fStream1 = new FileInputStream(file);
 		System.out.println("File의 크기 : " + file.length());	//약 12MBbyte
 		
